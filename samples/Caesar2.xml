@@ -1,0 +1,186 @@
+
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De Bello Gallico</title>
+				<author>Gaius Iulius Caesar</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Sinead Brennan-McMahon</publisher>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true">This online edition is adapted from Hering's Teubner edition,
+					with the apparatus criticus expanded to show transcriptions of the original
+					manuscripts.</note>
+			</notesStmt>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Hering">Hering's Teubner edition</witness>
+					<witness xml:id="A">MS "A"</witness>
+					<witness xml:id="B">MS "B"</witness>
+					<witness xml:id="beta">MS "beta"</witness>
+					<witness xml:id="E">MS "E"</witness>
+					<witness xml:id="T">MS "T"</witness>
+					<witness xml:id="U">MS "U"</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<rdg wit="#Hering #A #B #beta #E #T #U">Caesar DBG 1.1</rdg>
+					</app>
+				</title>
+			</head>
+			<lg n="1">
+				<l n="1.1"> Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae,
+					aliam Aquitani, tertiam qui ipsorum lingua Celtae, 
+					<app>
+						<rdg wit="#A #beta #T #U #Hering">nostra </rdg>
+						<rdg wit="#B #E">nr̅a̅ </rdg>
+					</app>
+					Galli appellantur. hi omnes lingua, institutis, legibus inter se differunt. 
+					Gallos ab Aquitanis 
+					<app>
+						<rdg wit="#B #beta #T #U #Hering">Garunna</rdg>
+						<rdg wit="#A">garumna</rdg>
+						<rdg wit="#E">garonna</rdg>
+					</app>
+					 flumen, a 
+					<app>
+						<rdg wit="#A #B #beta #T #U #Hering">Belgis</rdg>
+						<rdg wit="#E">blegis</rdg>
+					</app>
+					 Matrona et Sequana dividit. horum omnium fortissimi sunt Belgae, propterea quod 
+					 a cultu atque 
+					<app>
+						<rdg wit="#A #beta #E #T #U #Hering">humanitate</rdg>
+						<rdg wit="#B">hummanitate</rdg>
+					</app>
+					 provinciae longissime absunt minimeque ad eos mercatores saepe 
+					<app>
+						<rdg wit="#A #B #beta #T #U #Hering">commeant</rdg>
+						<rdg wit="#E">comeant</rdg>
+					</app>
+					 atque ea, quae ad effeminandos animos pertinent, inportant proximique sunt 
+					 Germanis, qui trans 
+					<app>
+						<rdg wit="#A #beta #T #U #Hering">Rhenum</rdg>
+						<rdg wit="#B #E">renum</rdg>
+					</app>
+					 incolunt, 
+					<app>
+						<rdg wit="#A #beta #E #T #U #Hering">quibuscum</rdg>
+						<rdg wit="#B">eis quibuscum</rdg>
+					</app>
+					 continenter bellum gerunt. qua de causa 
+					<app>
+						<rdg wit="#A #B #beta #T #U #Hering">Helvetii</rdg>
+						<rdg wit="#E">helvitii</rdg>
+					</app>
+					 quoque reliquos Gallos 
+					<app>
+						<rdg wit="#A #B #beta #T #U #Hering">virtute</rdg>
+						<rdg wit="#E">virtutem</rdg>
+					</app>
+					 praecedunt, quod fere cotidianis 
+					<app>
+						<rdg wit="#A #beta #T #U #Hering">proeliis</rdg>
+						<rdg wit="#B #E">praeliis</rdg>
+					</app>
+					 cum Germanis contendunt, cum 
+					<app>
+						<rdg wit="#A #B #beta #T #U #Hering">aut</rdg>
+						<rdg wit="#E">autem</rdg>
+					</app>
+					 suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. eorum una 
+					 pars, quam Gallos 
+					<app>
+						<rdg wit="#A #B #beta #T #U #Hering">obtinere</rdg>
+						<rdg wit="#E">optinere</rdg>
+					</app> 
+					 dictum est, initium capit a flumine Rhodano, continetur Garunna flumine, 
+					<app>
+						<rdg wit="#A #B #beta #T #U #Hering">Oceano</rdg>
+						<rdg wit="#E">oceanum</rdg>
+					</app>
+					, 
+					<app>
+						<rdg wit="#A #beta #E #T #U #Hering">finibus Belgarum, attingit</rdg>
+						<rdg wit="#B">finis belgarum attingit</rdg>
+					</app>
+					 etiam ab Sequanis et 
+					<app>
+						<rdg wit="#A #B #beta #T #U #Hering">Helvetiis</rdg>
+						<rdg wit="#E">helvitiis</rdg>
+					</app>
+					 flumen 
+					<app>
+						<rdg wit="#A #beta #T #U #Hering">Rhenum,</rdg>
+						<rdg wit="#B #E">renum,</rdg>
+					</app>
+					 vergit 
+					
+					<app>
+						<rdg wit="#A #B #beta #T #U #Hering">ad</rdg>
+						<rdg wit="#E">a</rdg>
+					</app> 
+					<app>
+						<rdg wit="#A #B #T #U #Hering">septentriones</rdg>
+						<rdg wit="#beta #E">septemtriones</rdg>
+					</app>
+					. Belgae ab extremis Galliae finibus 
+					<app>
+						<rdg wit="#A #B #beta #T #U #Hering">oriuntur</rdg>
+						<rdg wit="#E">horiuntur</rdg>
+					</app>
+					, pertinent ad inferiorem partem fluminis 
+					
+					<app>
+						<rdg wit="#A #beta #T #U #Hering">Rheni</rdg>
+						<rdg wit="#B #E">reni</rdg>
+					</app>
+					, spectant in 
+					<app>
+						<rdg wit="#A #B #E #T #U #Hering">septentrionem</rdg>
+						<rdg wit="#beta">septemtrionem</rdg>
+					</app>
+					 et orientem solem. Aquitania 
+					<app>
+						<rdg wit="#A #B #beta #T #U #Hering">a</rdg>
+						<rdg wit="#E"> </rdg>
+					</app> 
+					 Garunna flumine ad
+					<app>
+						<rdg wit="#B #beta #Hering">Pyrenaeos</rdg>
+						<rdg wit="#A #U">pireneos</rdg>
+						<rdg wit="#T">pyrineos</rdg>
+						<rdg wit="#E">phireneos</rdg>
+					</app> 
+					 montes et eam partem Oceani, 
+					<app>
+						<rdg wit="#A #T #U #Hering">quae est</rdg>
+						<rdg wit="#B #E">quaest</rdg>
+						<rdg wit="#beta">quae</rdg>
+					</app> 
+					 ad Hispaniam, pertinet, spectat
+					inter occasum solis et 
+					<app>
+						<rdg wit="#A #B #E #T #U #Hering">septentriones</rdg>
+						<rdg wit="#beta">septemtriones</rdg>
+					</app>
+					. 
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
