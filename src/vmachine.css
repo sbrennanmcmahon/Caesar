@@ -54,6 +54,18 @@ div#mainBanner{
 	background-size: cover;
 	background-repeat:no-repeat;
 }
+div#mainBanner div#brandingLogo{
+    float:left;
+	max-width: 10%;
+	height: 10em;
+	background-color:#FFFFFF;
+}
+
+div#mainBanner div#brandingLogo img{
+    max-width: 80%;
+	margin:5%;
+	max-height:90%;
+}
 
 div#mainBanner div#bannerImageContainer{
     width: 70%;
