@@ -213,8 +213,8 @@ div#mssArea div.imgPanel div.panelBanner{
 div#mssArea div.panel div.panelBanner img.closePanel{
     float:right;
     cursor:pointer;
-    width:3.4em;
-    height:3.4em;
+    width:1.4em;
+    height:1.4em;
 }
 
 div#mssArea div.panel div.mssContent{
@@ -443,7 +443,7 @@ div.rend-right{
 }
 .highlighted{
     font-weight:800;
-    background:#FFFF99;
+    background:#FDBB77;
 }
 
 .viewerHandle{
@@ -548,7 +548,7 @@ span.viewerHandleLt{
 }
 
 button{
-	background-color:#2c577f;
+	background-color: #999;
 	color: #fff;
 }
 .imgPanel button{
@@ -556,7 +556,7 @@ button{
 }
 
 .buttonPressed{
-	background-color: #999;
+	background-color: #2c577f;
 	border-color: #2c577f;
 }
 /*end OnOff button styling*/
@@ -592,7 +592,7 @@ div.panel.highlight,
 
 /* change colour of match app/line highlight*/
 .matchLineHi, .matchLineHiClicked{
-	background-color: #F0E68C;
+	background-color: #FDBB77;
 }
 .matchAppHi, .matchAppHiClicked{
 	background-color: #F6E613;
