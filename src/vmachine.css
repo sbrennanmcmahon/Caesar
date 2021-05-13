@@ -4,6 +4,9 @@
 	* Adds CSS styling to VM 5.0
 	
 	**/
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Homemade+Apple&display=swap" rel="stylesheet">
 	
 body{
     width:100%;
@@ -82,7 +85,7 @@ div#headline{
 div#mainBanner div#headline h1{
     margin:0;
     color:#2c577f;
-    font-family: "Arial";
+    font-family: 'Homemade Apple', cursive;
 }
 div#mainBanner div#headline span.versionCount{
     font-size:1.07em;
@@ -187,7 +190,7 @@ div#mssArea div.panel div.panelBanner{
     line-height:1.6em;
     margin:0;
     padding:3px 7px 3px 10px;
-    font-family:"Arial";
+    font-family: 'Homemade Apple', cursive;
     color:white;/*changed from black to be easier to read*/
     font-weight:400;/*changed from 800 to be easier to read*/
 }
