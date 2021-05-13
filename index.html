@@ -3,7 +3,7 @@
   SYSTEM "about:legacy-compat">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
    <head>
-      <title>De Bello Gallico -- The Versioning Machine 5.0</title>
+      <title>de Bello Gallico -- The Versioning Machine 5.0</title>
       <meta charset="utf-8"></meta>
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Homemade+Apple&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
       bibliographic information page does not appear at the initial load, change the constant
       INITIAL_DISPLAY_BIB_PANEL from "true" to "false" below */ INITIAL_DISPLAY_BIB_PANEL =
          true; /**The number of version/witness panels to be
-      displayed initially */ INITIAL_DISPLAY_NUM_VERSIONS = 2; /** CRIT PANEL: Critical information should be encoded as
+      displayed initially */ INITIAL_DISPLAY_NUM_VERSIONS = 3; /** CRIT PANEL: Critical information should be encoded as
       tei:notesStmt/tei:note[@type='critIntro'] in the TEI files --&gt; * To change the VM so that
       the critical information page does not * appear at the initial load, change the constant
       INITIAL_DISPLAY_CRIT_PANEL from "true" to "false" */ INITIAL_DISPLAY_CRIT_PANEL =
@@ -26,51 +26,51 @@
    <body>
       <div id="mainBanner">
          
-         <div id="bannerImageContainer"><img id="logo" alt="Powered by the Versioning Machine" src="vm-images/HeaderBackground.png"></img><div id="headline">
-               <h1>De Bello Gallico</h1>
+         <div id="bannerImageContainer"><img id="logo" alt="Caesar's de Bello Gallico" src="vm-images/HeaderBackground.png"></img><div id="headline">
+               <h1>de Bello Gallico</h1>
             </div>
             <nav id="mainControls">
                <ul>
                   <li><button id="selectVersion" class="topMenuButton dropdownButton">7 Total Versions<img class="noDisplay" src="vm-images/arrowup.png" alt="arrow up"></img><img src="vm-images/arrowdown.png" alt="arrow down"></img></button><ul id="versionList" class="dropdown notVisible">
                         <li data-panelid="Hering">
                            <div class="listText">
-                              <div><a href="#" title="Hering: Hering's Teubner edition">Version Hering</a></div>
+                              <div><a href="#" title="Hering: Hering's Teubner edition">Hering OCT</a></div>
                               <div><button>OFF</button></div>
                            </div>
                         </li>
                         <li data-panelid="A">
                            <div class="listText">
-                              <div><a href="#" title="A: MS &#34;A&#34;">Version A</a></div>
+                              <div><a href="#" title="A: MS &#34;A&#34;">MS A</a></div>
                               <div><button>OFF</button></div>
                            </div>
                         </li>
                         <li data-panelid="B">
                            <div class="listText">
-                              <div><a href="#" title="B: MS &#34;B&#34;">Version B</a></div>
+                              <div><a href="#" title="B: MS &#34;B&#34;">MS B</a></div>
                               <div><button>OFF</button></div>
                            </div>
                         </li>
                         <li data-panelid="beta">
                            <div class="listText">
-                              <div><a href="#" title="beta: MS &#34;beta&#34;">Version beta</a></div>
+                              <div><a href="#" title="beta: MS &#34;beta&#34;">MS beta</a></div>
                               <div><button>OFF</button></div>
                            </div>
                         </li>
                         <li data-panelid="E">
                            <div class="listText">
-                              <div><a href="#" title="E: MS &#34;E&#34;">Version E</a></div>
+                              <div><a href="#" title="E: MS &#34;E&#34;">MS E</a></div>
                               <div><button>OFF</button></div>
                            </div>
                         </li>
                         <li data-panelid="T">
                            <div class="listText">
-                              <div><a href="#" title="T: MS &#34;T&#34;">Version T</a></div>
+                              <div><a href="#" title="T: MS &#34;T&#34;">MS T</a></div>
                               <div><button>OFF</button></div>
                            </div>
                         </li>
                         <li data-panelid="U">
                            <div class="listText">
-                              <div><a href="#" title="U: MS &#34;U&#34;">Version U</a></div>
+                              <div><a href="#" title="U: MS &#34;U&#34;">MS U</a></div>
                               <div><button>OFF</button></div>
                            </div>
                         </li>
@@ -87,7 +87,7 @@
             <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img> Bibliographic Information 
             </div>
             <div class="bibContent">
-               <h2>De Bello Gallico</h2>
+               <h2>de Bello Gallico</h2>
                <h3> by Gaius Iulius Caesar</h3>
                <h4>Witness List</h4>
                <ul>
@@ -119,7 +119,7 @@
             </div>
          </div>
          <div class="ui-widget-content ui-resizable panel mssPanel noDisplay" id="Hering">
-            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img><a title="Version Hering: Hering's Teubner edition">Version Hering: Hering's Teubner edition</a></div>
+            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img><a title="Hering's Teubner edition">Hering's Teubner edition</a></div>
             <div class="mssContent">
                			
                <div class="head">
@@ -365,7 +365,7 @@
             </div>
          </div>
          <div class="ui-widget-content ui-resizable panel mssPanel noDisplay" id="A">
-            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img><a title="Version A: MS &#34;A&#34;">Version A: MS "A"</a></div>
+            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img><a title="MS &#34;A&#34;">MS "A"</a></div>
             <div class="mssContent">
                			
                <div class="head">
@@ -611,7 +611,7 @@
             </div>
          </div>
          <div class="ui-widget-content ui-resizable panel mssPanel noDisplay" id="B">
-            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img><a title="Version B: MS &#34;B&#34;">Version B: MS "B"</a></div>
+            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img><a title="MS &#34;B&#34;">MS "B"</a></div>
             <div class="mssContent">
                			
                <div class="head">
@@ -857,7 +857,7 @@
             </div>
          </div>
          <div class="ui-widget-content ui-resizable panel mssPanel noDisplay" id="beta">
-            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img><a title="Version beta: MS &#34;beta&#34;">Version beta: MS "beta"</a></div>
+            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img><a title="MS &#34;beta&#34;">MS "beta"</a></div>
             <div class="mssContent">
                			
                <div class="head">
@@ -1103,7 +1103,7 @@
             </div>
          </div>
          <div class="ui-widget-content ui-resizable panel mssPanel noDisplay" id="E">
-            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img><a title="Version E: MS &#34;E&#34;">Version E: MS "E"</a></div>
+            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img><a title="MS &#34;E&#34;">MS "E"</a></div>
             <div class="mssContent">
                			
                <div class="head">
@@ -1349,7 +1349,7 @@
             </div>
          </div>
          <div class="ui-widget-content ui-resizable panel mssPanel noDisplay" id="T">
-            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img><a title="Version T: MS &#34;T&#34;">Version T: MS "T"</a></div>
+            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img><a title="MS &#34;T&#34;">MS "T"</a></div>
             <div class="mssContent">
                			
                <div class="head">
@@ -1595,7 +1595,7 @@
             </div>
          </div>
          <div class="ui-widget-content ui-resizable panel mssPanel noDisplay" id="U">
-            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img><a title="Version U: MS &#34;U&#34;">Version U: MS "U"</a></div>
+            <div class="panelBanner"><img class="closePanel" title="Close panel" src="vm-images/closePanel.png" alt="X (Close panel)"></img><a title="MS &#34;U&#34;">MS "U"</a></div>
             <div class="mssContent">
                			
                <div class="head">

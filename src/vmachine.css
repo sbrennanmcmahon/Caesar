@@ -207,10 +207,6 @@ div.imgPanel{
 	z-index:2;
 }
 
-div#mssArea div.mssPanel div.panelBanner,
-div#mssArea div.imgPanel div.panelBanner{
-    border-bottom:1px solid black;
-}
 div#mssArea div.panel div.panelBanner img.closePanel{
     float:right;
     cursor:pointer;
