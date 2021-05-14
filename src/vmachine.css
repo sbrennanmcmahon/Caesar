@@ -22,6 +22,7 @@ h5,
 h6{
     color:#003366;
     line-height:125%;
+    font-family: "Didact Gothic";
 }
 h2{
     font-size:18px;
@@ -125,7 +126,8 @@ nav#mainControls button img{
 }
 div.listText{
     display:table;
-	font-size: 0.9em;
+    font-size: 0.9em;
+    font-family: "Didact Gothic"
 }
 /*styling of div containing the names of individual witnesses in version dropdown*/
 div.listText div:first-child{
@@ -133,6 +135,7 @@ div.listText div:first-child{
 	padding-right:5px;
     display:table-cell;
     vertical-align:middle;
+    font-family: "Didact Gothic"
 }
 /*styling of div containing the on-off button in version dropdown*/
 div.listText div:last-child{
@@ -160,6 +163,7 @@ div#mssArea{
 }
 
 div.panel{
+    font-family: "Didact Gothic";
     float:left;
     border:1px solid black;
 	width:350px;
