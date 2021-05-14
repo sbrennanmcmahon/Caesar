@@ -78,7 +78,9 @@ div#mainBanner div#bannerImageContainer>img{
 div#headline{
 	padding:1em;
 	position: absolute;
-	top: 0;
+    top: 0;
+    left: 610px;
+    font-size: 16pt;
 	}
 div#mainBanner div#headline h1{
     margin:0;
@@ -97,8 +99,9 @@ div#mainBanner nav#mainControls{
     margin:0;
     padding:0;
 	position:absolute;
-	bottom:10px;
-	width:100%;
+    bottom:5px;
+    width:100%;
+    left: 580px;
 }
 nav#mainControls button img{
 	height:0.5em;/*controls the size of the arrow button in dropdown menu*/
@@ -188,7 +191,7 @@ div#mssArea div.panel div.panelBanner{
     line-height:2em;
     margin:0;
     padding:3px 7px 3px 10px;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Didact Gothic', cursive;
     color:white;
     font-weight:400;/*changed from 800 to be easier to read*/
 }
@@ -274,7 +277,8 @@ div.paragraph{
 div.line{
     margin:0 4em 0 2.5em;
     padding:0;
-	cursor: auto;
+    cursor: auto;
+    font-family:"Didact Gothic";
 }
 div.line div.linenumber,
 div.line div.emptynumber{
@@ -292,6 +296,7 @@ div.line div.linenumber{
 div.head{
     font-size:115%;
     color:#003366;
+    font-family: "Didact Gothic";
 }
 
 div.epigraph{
@@ -513,10 +518,6 @@ span.viewerHandleLt{
     border-right:1px solid #fff;
     color:#fff;
     cursor:pointer;
-}
-
-.topMenuButton:hover{
-    background-color:#6699cc;
 }
 
 .noDisplay{
