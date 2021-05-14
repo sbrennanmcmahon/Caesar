@@ -76,10 +76,7 @@ div#mainBanner div#bannerImageContainer>img{
 }
 
 div#headline{
-	padding:1em;
-	position: absolute;
     top: 0;
-    left: 610px;
     font-size: 16pt;
 	}
 div#mainBanner div#headline h1{
@@ -98,10 +95,8 @@ div#mainBanner nav#mainControls{
     border:none;
     margin:0;
     padding:0;
-	position:absolute;
-    bottom:5px;
+    bottom:10px;
     width:100%;
-    left: 580px;
 }
 nav#mainControls button img{
 	height:0.5em;/*controls the size of the arrow button in dropdown menu*/
@@ -502,7 +497,6 @@ span.viewerHandleLt{
     font-size: 1em; /*changed from 1.2em*/
     font-family:'Didact Gothic';/*added*/
     position:relative;
-    float:left;
 }
 /* style dropdown button */
 .topMenuButton{
@@ -558,13 +552,6 @@ button{
 	border-color: #2c577f;
 }
 /*end OnOff button styling*/
-
-
-div.panel.highlight,
-.dropdown .highlight{
-	border: 1px solid red;
-}
-
 
 #showNote{
 	padding:7px 20px;
