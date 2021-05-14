@@ -184,12 +184,12 @@ div#mssArea div.panel div.panelBanner,
     background:#2c577f;
 }
 div#mssArea div.panel div.panelBanner{
-    height:1.6em;
-    line-height:1.6em;
+    height:2em;
+    line-height:2em;
     margin:0;
     padding:3px 7px 3px 10px;
-    font-family: 'Homemade Apple', cursive;
-    color:white;/*changed from black to be easier to read*/
+    font-family: 'Amatic SC', cursive;
+    color:white;
     font-weight:400;/*changed from 800 to be easier to read*/
 }
 
@@ -452,7 +452,7 @@ div.rend-right{
     line-height:1.4em;
     color:white;/*changed from black to be easier to read*/
     font-weight:400;/*changed from 800 to be easier to read*/
-    font-family:"Arial";
+    font-family:"Didact Gothic";
     overflow:hidden;
     position:absolute;
     top:0;
@@ -495,13 +495,13 @@ span.viewerHandleLt{
     list-style-type:none;
     padding: 0 5px 5px 15px;; /* changed from 5px*/
     font-size: 1em; /*changed from 1.2em*/
-    font-family:"Arial";/*added*/
+    font-family:'Didact Gothic';/*added*/
     position:relative;
     float:left;
 }
 /* style dropdown button */
 .topMenuButton{
-    font-family: "Segoe UI";
+    font-family: "Didact Gothic";
     font-weight: 300;
 	display:block;
     background-color:#2c577f;
