@@ -91,7 +91,6 @@ div#mainBanner div#headline span.versionCount{
 }
 /* END styles for main banner*/
 
-/* BEGIN styles top navigation and dropdown menu*/
 div#mainBanner nav#mainControls{
     border:none;
     margin:0;
@@ -176,6 +175,7 @@ div.panel{
 	top: -1px;
 	background:white;
     cursor: move;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*position:absolute to prevent that adjacent panels get moved on resize*/
 div.panel.ui-resizable{
